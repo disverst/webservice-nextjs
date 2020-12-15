@@ -1425,7 +1425,7 @@
   float: left;
   &:before {
     content: "";
-    background: url(../img/new/shape_bg.png) no-repeat scroll center left;
+    background: url(../../public/img/new/shape_bg.png) no-repeat scroll center left;
     position: absolute;
     left: -65px;
     top: -20px;
@@ -1536,7 +1536,7 @@
     padding: 0px;
     position: relative;
     .bg_img {
-      background: url("../img/new/solution_01.jpg") no-repeat scroll center 0;
+      background: url("../../public/img/new/solution_01.jpg") no-repeat scroll center 0;
       position: absolute;
       left: 0;
       top: 0;
@@ -1545,7 +1545,7 @@
       height: 130%;
       background-size: cover;
       &.bg_two {
-        background: url("../img/new/solution_02.jpg") no-repeat scroll center 0;
+        background: url("../../public/img/new/solution_02.jpg") no-repeat scroll center 0;
       }
     }
   }
@@ -1614,7 +1614,7 @@
   &:before {
     content: "";
     height: 100%;
-    background: url("../img/new/tab_shape_bg.png") no-repeat scroll center 0 /
+    background: url("../../public/img/new/tab_shape_bg.png") no-repeat scroll center 0 /
       contain;
     top: 0px;
     right: -55px;

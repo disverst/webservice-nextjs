@@ -388,7 +388,7 @@
     min-height: 600px;
     background: #fbfbfd;
     display: flex;
-    flex-wrap: wrap;  
+    flex-wrap: wrap;
     .saasland_bg{
         position: absolute;
         width: 100%;
@@ -454,7 +454,7 @@
             }
         }
     }
-} 
+}
 .saasland_col_screen{
     background-image: -moz-linear-gradient( -120deg, rgb(94,44,237) 0%, rgb(164,133,253) 100%);
     background-image: -webkit-linear-gradient( -120deg, rgb(94,44,237) 0%, rgb(164,133,253) 100%);
@@ -548,7 +548,7 @@
         }
     }
     .overlay_img{
-        background: url("../img/seo/cloud_bg.png") no-repeat scroll center 0 / cover;
+        background: url("../../public/img/seo/cloud_bg.png") no-repeat scroll center 0 / cover;
         position: absolute;
         top: 0;
         width: 100%;

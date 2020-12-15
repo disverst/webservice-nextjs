@@ -83,7 +83,7 @@
             .spinner{
                 border-color: rgba(255, 255, 255, 0.2);
                 border-top-color: #fff;
-                
+
             }
             .txt-loading{
                 .letters-loading{
@@ -140,7 +140,7 @@
         .loader-section {
             .bg{
                 width: 0;
-                transition: 0.7s 0.3s allcubic-bezier(0.1, 0.1, 0.1, 1);
+                transition: 0.7s 0.3s all cubic-bezier(0.1, 0.1, 0.1, 1);
             }
         }
     }

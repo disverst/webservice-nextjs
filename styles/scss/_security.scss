@@ -974,7 +974,7 @@
     margin-bottom: 30px;
     &:before{
         content: "";
-        background: url("../img/home-event/price_shap.png") no-repeat scroll center bottom;
+        background: url("../../public/img/home-event/price_shap.png") no-repeat scroll center bottom;
         position: absolute;
         bottom: -22px;
         left: 0;
@@ -1005,7 +1005,7 @@
         }
     }
     .event_btn{
-        width: 100%;   
+        width: 100%;
         &:hover{
             box-shadow: 0px 10px 40px 0px rgba(195, 33, 52, 0.3);
         }
@@ -1038,7 +1038,7 @@
     background: #fdfaf6;
     .seo_fact_info{
         &:before{
-            background: url("../img/home-event/dot.png") no-repeat center center;
+            background: url("../../public/img/home-event/dot.png") no-repeat center center;
         }
         .seo_fact_item{
             margin-top: 0;
@@ -1060,7 +1060,7 @@
         border-top: 1px solid #f0ebec;
         padding: 40px 0px;
         .sponser_title{
-            margin-bottom: 0; 
+            margin-bottom: 0;
             padding-top: 25px;
         }
         .analytices_logo{
@@ -1131,7 +1131,7 @@
                 color: #fd475d;
             }
         }
-    } 
+    }
 }
 
 /*=========== tracking_banner_area css =============*/
@@ -1167,7 +1167,7 @@
 
 /*============ tracking_activity_area css ==============*/
 .tracking_activity_area{
-    padding-top: 115px;  
+    padding-top: 115px;
     background: #f6f6f6;
 }
 .tracking_item{
@@ -1316,7 +1316,7 @@
 
 .tracking_getting_area{
     text-align: center;
-    background: url("../img/home-tracking/cta_pattern_bg.jpg") no-repeat scroll center 0/ cover;
+    background: url("../../public/img/home-tracking/cta_pattern_bg.jpg") no-repeat scroll center 0/ cover;
     h2{
         font-weight: 700;
         font-size: 36px;
@@ -1436,7 +1436,7 @@
 
 /*=========== chat_core_features_area css ============*/
 .chat_core_features_area{
-    
+
 }
 .chat_title{
     margin-bottom: 75px;
@@ -1551,7 +1551,7 @@
     }
     &.chat_features_img_one{
         .dot_bg{
-            
+
         }
     }
 }
@@ -1614,7 +1614,7 @@
 
 /*============= chat_clients_area css ===========*/
 .chat_clients_area{
-    
+
 }
 .chat_clients_feedback{
     background-image: -moz-linear-gradient( -140deg, rgb(92,227,247) -100%, rgb(112,165,254) 100%);
@@ -1670,7 +1670,7 @@
 }
 
 .chat_get_started_area{
-    background: url("../img/home-chat/get_started_bg.png") no-repeat scroll center bottom;
+    background: url("../../public/img/home-chat/get_started_bg.png") no-repeat scroll center bottom;
     height: 712px;
     padding-top: 120px;
 }

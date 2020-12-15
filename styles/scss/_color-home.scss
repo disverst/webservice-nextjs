@@ -1,6 +1,6 @@
 
 #pp-nav{
-    right: 45px;  
+    right: 45px;
     li{
         margin: 4px;
         a{
@@ -19,7 +19,7 @@
             }
         }
     }
-    
+
 }
 .pagepiling{
     .scroll-wrap{
@@ -32,7 +32,7 @@
         .scrollable-content{
             width: 100%;
             .vertical-centred{
-                
+
             }
         }
     }
@@ -115,16 +115,16 @@
     }
     .round_line{
         &.two{
-            animation: fadeInDown2 1s both 1.4s; 
+            animation: fadeInDown2 1s both 1.4s;
         }
         &.one{
-            animation: fadeInDown2 1s both 1s; 
+            animation: fadeInDown2 1s both 1s;
         }
         &.three{
-            animation: fadeInUp2 1s both 1.4s; 
+            animation: fadeInUp2 1s both 1.4s;
         }
         &.four{
-            animation: fadeInUp2 1s both 1s; 
+            animation: fadeInUp2 1s both 1s;
         }
     }
     .pp_sec_title{
@@ -303,7 +303,7 @@
             box-shadow: 0px 20px 60px 0px rgba(10, 5, 75, 0.06);
             width: 500px;
             height: 500px;
-            
+
         }
         .dots{
             right: -70px;
@@ -334,7 +334,7 @@
         margin-bottom: 5px;
     }
     h2{
-        
+
     }
 }
 .pp_features_info{
@@ -495,7 +495,7 @@
         top: 400px;
     }
     &.active{
-        
+
     }
 }
 .pp_contact_info{
@@ -924,7 +924,7 @@
             justify-content: space-between;
             font-size: 16px;
             color: #7b7b93;
-            font-size: 400;
+            font-size: 400px;
             align-items: center;
             margin: 12px 0px;
             i{
@@ -995,7 +995,7 @@
         height: 560px;
         z-index: -1;
         left: 0;
-        background: url("../img/home-software/down_bg.png") no-repeat scroll;
+        background: url("../../public/img/home-software/down_bg.png") no-repeat scroll;
         bottom: 0;
         background-size: cover;
     }

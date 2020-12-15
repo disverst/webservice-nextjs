@@ -861,7 +861,7 @@
     &:before {
         content: "";
         width: 752px;
-        background: url("../img/demo/circle-3.png") no-repeat center left;
+        background: url("../../public/img/demo/circle-3.png") no-repeat center left;
         height: 1000px;
         left: 0;
         position: absolute;
@@ -899,7 +899,7 @@
                 padding-left: 25px;
 
                 &:before {
-                    background: url("../img/demo/arrow.png") no-repeat scroll center 0;
+                    background: url("../../public/img/demo/arrow.png") no-repeat scroll center 0;
                     content: "";
                     width: 13px;
                     height: 13px;
@@ -1787,7 +1787,7 @@
         width: 300px;
         height: 300px;
         -webkit-animation: circleAnimation 7s linear infinite;
-        animation: circleAnimation 7s linear infinite; 
+        animation: circleAnimation 7s linear infinite;
         z-index: -1;
     }
     .footer_shap_3 {
