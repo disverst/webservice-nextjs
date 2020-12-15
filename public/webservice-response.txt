@@ -1,0 +1,187 @@
+{
+  "type": "Page",
+  "id": "1",
+  "status": "200 OK",
+  "data": {
+    "attributes": {
+      "update": "2020-12-14",
+      "url": "https://domen.com/en",
+      "current-lang": "en",
+      "status": "published"
+    },
+    "web_elements": {
+      "header": {
+        "logo": {
+          "logo-src": "img/logo2x.png",
+          "logo-alt": "Что такое Lorem Ipsum?"
+        },
+        "main-nav": {
+          "1": {
+            "title": "It Services",
+            "url": "https://domen.com#It-Services"
+          },
+          "2": {
+            "title": "About",
+            "url": "https://domen.com#About"
+          },
+          "3": {
+            "title": "Process",
+            "url": "https://domen.com#Process"
+          },
+          "4": {
+            "title": "News",
+            "url": "https://domen.com#News"
+          },
+          "5": {
+            "title": "Contacs",
+            "url": "https://domen.com#Contacts"
+          }
+        },
+        "lang-nav": {
+          "1": {
+            "title": "ukr",
+            "url": "https://domen.com"
+          },
+          "2": {
+            "title": "Ru",
+            "url": "https://domen.com/ru"
+          }
+        },
+        "button": {
+          "title": "Оставить заказ",
+          "url": "https://domen.com#Order-service"
+        }
+      },
+      "banner": {
+        "title": "Starategic design and technology agency",
+        "description": "Why I say old chap that is spiffing off his nut arse pear shaped plastered Jeffrey bodge barney some dodgy.!!",
+        "link-it-service": "Google Sing Up",
+        "src": "img/home4/banner_img.png",
+        "button-order": {
+          "title": "Get in Touch",
+          "url": "https://domen.com#Order-service"
+        },
+        "button-services": {
+          "title": "Google Sing Up",
+          "url": "https://domen.com#Service"
+        }
+      },
+      "logo-technology": {
+        "1": {
+          "logo-src": "img/home/logo-technology_01.png"
+        },
+        "2": {
+          "logo-src": "img/home/logo-technology_02.png"
+        },
+        "3": {
+          "logo-src": "img/home/logo-technology_03.png"
+        },
+        "4": {
+          "logo-src": "img/home/logo-technology_04.png"
+        },
+        "5": {
+          "logo-src": "img/home/logo-technology_05.png"
+        },
+        "6": {
+          "logo-src": "img/home/logo-technology_06.png"
+        },
+        "7": {
+          "logo-src": "img/home/logo-technology_07.png"
+        }
+      },
+      "it-services": {
+        "title": "You SaasLand wherever your business agency",
+        "url": "https://domen.com#It-Services",
+        "elements": {
+          "1": {
+            "title": "Export Presets",
+            "description": "Why I say old chap that is spiffing bodge, blag pardon me buggered mufty Oxford butty bubble and squeak wind up, brown bread the full monty bloke ruddy.!",
+            "logo-src": "img/home/it-services_shape1.png",
+            "logo-i": "ti-panel"
+          },
+          "2": {
+            "title": "Grid and Guides",
+            "description": "Why I say old chap that is spiffing bodge, blag pardon me buggered mufty Oxford butty bubble and squeak wind up, brown bread the full monty bloke ruddy.!",
+            "logo-src": "img/home/it-services_shape2.png",
+            "logo-i": "ti-layout-grid2"
+          },
+          "3": {
+            "title": "Prototyping",
+            "description": "Why I say old chap that is spiffing bodge, blag pardon me buggered mufty Oxford butty bubble and squeak wind up, brown bread the full monty bloke ruddy.!",
+            "logo-src": "img/home/it-services_shape3.png",
+            "logo-i": "ti-gallery"
+          },
+          "4": {
+            "title": "Pixel Precision",
+            "description": "Why I say old chap that is spiffing bodge, blag pardon me buggered mufty Oxford butty bubble and squeak wind up, brown bread the full monty bloke ruddy.!",
+            "logo-src": "img/home/it-services_shape4.png",
+            "logo-i": "ti-fullscreen"
+          }
+        }
+      },
+      "about": {
+        "title": "Starategic design and technology agency",
+        "url":"https://domen.com#About",
+        "description": "Why I say old chap that is spiffing off his nut arse pear shaped plastered Jeffrey bodge barney some dodgy.!!",
+        "link-order": "Get in Touch",
+        "elements": {
+          "1": {
+            "title": "Export Presets",
+            "logo-src": "img/home/about_shape1.png"
+          },
+          "2": {
+            "title": "Grid and Guides",
+            "logo-src": "img/home/about_shape2.png"
+          },
+          "3": {
+            "title": "Prototyping",
+            "logo-src": "img/home/about_shape3.png"
+          },
+          "4": {
+            "title": "Pixel Precision",
+            "logo-src": "img/home/about_shape4.png"
+          }
+        },
+        "button": {
+          "title": "Оставить заказ",
+          "url": "https://domen.com#Order-service"
+        }
+      },
+      "proces": {
+        "title": "You SaasLand wherever your business agency",
+        "url":"https://domen.com#Process",
+        "elements": {
+          "1": {
+            "title": "With efficiency to unlock more opportunities",
+            "description": "Why I say old chap that is spiffing bodge, blag pardon me buggered mufty Oxford butty bubble and squeak wind up, brown bread the full monty bloke ruddy.!",
+            "logo-src": "img/home/proces_shape1.png"
+          },
+          "2": {
+            "title": "Wuth instant data to keep everyone in the know",
+            "description": "Why I say old chap that is spiffing bodge, blag pardon me buggered mufty Oxford butty bubble and squeak wind up, brown bread the full monty bloke ruddy.!",
+            "logo-src": "img/home/proces_shape2.png"
+          },
+          "3": {
+            "title": "With efficiency to unlock more opportunities",
+            "description": "Why I say old chap that is spiffing bodge, blag pardon me buggered mufty Oxford butty bubble and squeak wind up, brown bread the full monty bloke ruddy.!",
+            "logo-src": "img/home/proces_shape3.png"
+          }
+        }
+      },
+      "news":{
+        "url": "https://domen.com#News"
+      },
+      "contacts":{
+        "google-map":"",
+        "url": "https://domen.com#Contacts"
+      }
+    },
+    "relationships": {
+      "seo": {
+        "title": "Что такое Lorem Ipsum?",
+        "description": "Lorem Ipsum - это текст-'рыба', часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной 'рыбой' для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов,",
+        "meta-robots": "all"
+      }
+    }
+  }
+}

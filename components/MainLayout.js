@@ -5,7 +5,7 @@ export function MainLayout({ children, title = 'Next App' }) {
     return (
         <>
             <Head>
-                <title>{title} | dorea.online</title>
+                <title>{title} | webservice</title>
             </Head>
             <main>
                 {children}
