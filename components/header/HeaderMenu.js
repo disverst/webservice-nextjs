@@ -1,8 +1,27 @@
+import {useState, useEffect} from 'react'
 import Link from "next/link";
+import {MainLayout} from "../MainLayout";
+import {useRouter} from "next/router";
 
-export function HeaderMenu () {
-    // const webElements = data;
-    // console.log(webElements)
+export function HeaderMenu ({ data: serverData }) {
+    const [data, setData] = useState(serverData)
+    const router = useRouter()
+
+    useEffect(() => {
+         async function load() {
+             const response = await fetch(`http://localhost:3000/webservice-response.txt/${router.query.id}`);
+             const data = await response.json()
+             setData(data)
+         }
+         if (!serverData) {
+             load()
+         }
+    }, [])
+    if (!data)
+        return <MainLayout>
+            <p>Loading ...</p>
+        </MainLayout>
+
     return (
         <>
             <ul className="navbar-nav menu pl_120 mr-auto ml-auto">
@@ -19,13 +38,17 @@ export function HeaderMenu () {
     )
 }
 
-// export async function getStaticProps() {
-//     const res = await fetch(`http://localhost:3000/dorea-response.txt`);
-//     const data = await res.json()
-//     return {
-//         data
-//     }
-// }
+HeaderMenu.getInitialProps = async ({ query, req }) => {
+    if (!req) {
+        return {data: null}
+    }
+    const response = await fetch(`http://localhost:3000/webservice-response.txt/${query.id}`);
+    const data = await response.json()
+
+    return {
+        data
+    }
+}
 
 // <ul className="navbar-nav menu pl_120 mr-auto ml-auto">
 //     HeaderMenu.map(header => (
