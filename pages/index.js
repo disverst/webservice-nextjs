@@ -1,11 +1,7 @@
-import Link from 'next/link'
-
 import {MainLayout} from "../components/MainLayout";
-import {HeaderComponent} from "../components/HeaderComponent";
+import {HeaderComponent} from "../components/header/HeaderComponent";
 
-export default function Index(data) {
-    const webElements = data.data.data.web_elements;
-    console.log(webElements)
+export default function Index() {
     return (
         <MainLayout title={'Главная'}>
             <div className="body_wrapper">
@@ -15,10 +11,4 @@ export default function Index(data) {
     )
 }
 
-export async function getStaticProps() {
-    const res = await fetch(`http://localhost:3000/webservice-response.txt`);
-    const data = await res.json()
-    return {
-        props: {data},
-    }
-}
+
