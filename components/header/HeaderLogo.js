@@ -1,11 +1,18 @@
 import Link from "next/link";
+import Image from 'next/image'
 
 export function HeaderLogo () {
     return (
         <>
         <Link href={'/'}>
-            <a className="navbar-brand" href="#">
-                <img src="img/logo.png" srcSet="img/logo2x.png 2x" alt="logo" />
+            <a className="navbar-brand">
+                <Image
+                    src="/logo.png"
+                    srcSet="/logo2x.png 2x"
+                    alt="logo"
+                    width={136}
+                    height={59}
+                />
             </a>
         </Link>
         </>

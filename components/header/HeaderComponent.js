@@ -5,6 +5,8 @@ import {HeaderHamburger} from "./HeaderHamburger";
 import {HeaderButton} from "./HeaderButton";
 
 export function HeaderComponent () {
+    // get api data
+    // constructor parse data
     return (
         <>
             <header className="header_area">
@@ -13,7 +15,7 @@ export function HeaderComponent () {
                         <HeaderLogo />
                         <HeaderHamburger />
                         <div className="collapse navbar-collapse" id="navbarSupportedContent">
-                            <HeaderMenu />
+                            {/*<HeaderMenu />*/}
                             <HeaderButton />
                         </div>
                     </div>
