@@ -1,9 +1,11 @@
 import {MainLayout} from "../components/MainLayout";
+import {HeaderComponent} from "../components/header/HeaderComponent";
 import Link from "next/link";
 
 export default function ErrorPage () {
     return (
         <MainLayout title={'404'}>
+            <HeaderComponent />
             <section className="error_area">
                 <img className="error_shap" src="img/breadcrumb/banner_bg.png" alt="" />
                     <div className="container flex">
