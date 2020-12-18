@@ -1,46 +1,26 @@
-import {MainLayout} from "../components/MainLayout";
+// import {MainLayout} from "../components/MainLayout";
 import {HeaderComponent} from "../components/header/HeaderComponent";
-import {useEffect, useState} from "react";
-import {useRouter} from "next/router";
+// import {useEffect, useState} from "react";
+// import {useRouter} from "next/router";
 
 
-export default function Index({ data: serverData  }) {
-    const [data, setData] = useState(serverData)
-    const router = useRouter()
+export default function Index({data}) {
+    var header = data.data.web_elements.header;
 
-    useEffect(() => {
-        async function load() {
-            const response = await fetch(`http://localhost:3000/webservice-response.txt/${router.query.id}`);
-            const data = await response.json()
-            setData(data)
-        }
-        if (!serverData) {
-            load()
-        }
-    }, [])
-    if (!data)
-        return <MainLayout>
-            <p>Loading ...</p>
-        </MainLayout>
-    return (
-        <MainLayout title={'Главная'}>
-            <div className="body_wrapper">
-                <HeaderComponent />
-            </div>
-        </MainLayout>
+    return(
+        <>
+            <HeaderComponent header={header}/>
+        </>
     )
 }
 
-Index.getInitialProps = async ({ query, req }) => {
-    if (!req) {
-        return {data: null}
-    }
-    const response = await fetch(`http://localhost:3000/webservice-response.txt/${query.id}`);
-    const data = await response.json()
+export async function getStaticProps() {
+    const res = await fetch('http://localhost:3000/webservice-response.txt')
+    const data = await res.json()
 
     return {
-        data
+        props: {
+            data,
+        }
     }
 }
-
-

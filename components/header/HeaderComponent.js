@@ -4,31 +4,24 @@ import {HeaderMenu} from "./HeaderMenu";
 import {HeaderHamburger} from "./HeaderHamburger";
 import {HeaderButton} from "./HeaderButton";
 
-export function HeaderComponent () {
-    // get api data
-    // constructor parse data
+export function HeaderComponent ({header}) {
+    const logo = header.logo;
+    const nav = header.nav;
+    const button = header.button;
     return (
         <>
             <header className="header_area">
                 <nav className="navbar navbar-expand-lg menu_one menu_four">
                     <div className="container custom_container p0">
-                        <HeaderLogo />
+                        <HeaderLogo logo={logo} />
                         <HeaderHamburger />
-                        <div className="collapse navbar-collapse" id="navbarSupportedContent">
-                            {/*<HeaderMenu />*/}
-                            <HeaderButton />
-                        </div>
+                    <div className="collapse navbar-collapse" id="navbarSupportedContent">
+                        <HeaderMenu nav={nav} />
+                        <HeaderButton button={button} />
+                    </div>
                     </div>
                 </nav>
             </header>
         </>
     )
 }
-
-// HeaderComponent.getInitialProps = async (ctx) => {
-//     const res = await fetch('http://localhost:3000/webservice-response.txt')
-//     const header = await res.json()
-//     return {
-//         header
-//     }
-// }

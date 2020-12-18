@@ -1,11 +1,11 @@
 import Link from "next/link";
 
-export function HeaderButton () {
+export function HeaderButton ({button}) {
     return (
         <>
-            <Link href={'/'}>
+            <Link href={button.url}>
                 <a className="btn_get btn_hover menu_cus">
-                    Связаться с нами
+                    {button.title}
                 </a>
             </Link>
         </>

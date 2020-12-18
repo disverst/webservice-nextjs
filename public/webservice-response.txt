@@ -15,7 +15,7 @@
           "logo-src": "img/logo2x.png",
           "logo-alt": "Что такое Lorem Ipsum?"
         },
-        "main-nav": {
+        "nav": {
           "1": {
             "title": "It Services",
             "url": "https://domen.com#It-Services"
