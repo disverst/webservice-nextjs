@@ -4,13 +4,7 @@ import {MainLayout} from "../MainLayout";
 import {useRouter} from "next/router";
 
 export function HeaderMenu({nav}) {
-    let links = [];
-
-    for (const [key, value] of Object.entries(nav)) {
-        if (key) {
-            links[key] = value;
-        }
-    }
+    const links = getElementsValue(nav);
 
     return (
         <>
@@ -31,4 +25,15 @@ export function HeaderMenu({nav}) {
             </ul>
         </>
     )
+}
+
+function getElementsValue(nav){
+    let links = [];
+
+    for (const [key, value] of Object.entries(nav)) {
+        if (key) {
+            links[key] = value;
+        }
+    }
+    return links
 }
