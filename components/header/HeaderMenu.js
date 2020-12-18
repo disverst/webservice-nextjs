@@ -12,13 +12,13 @@ export function HeaderMenu({nav}) {
                 {
                     links.map((link, index) =>
                         (
-                             <li key={index} className="nav-item active">
-                                 <Link href={link.url}>
-                                     <a className="nav-link dropdown-toggle">
-                                         {link.title}
-                                     </a>
-                                 </Link>
-                             </li>
+                            <li key={index} className="nav-item active">
+                                <Link href={link.url}>
+                                    <a className="nav-link dropdown-toggle">
+                                        {link.title}
+                                    </a>
+                                </Link>
+                            </li>
                         )
                     )
                 }
