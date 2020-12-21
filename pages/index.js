@@ -1,16 +1,18 @@
-// import {MainLayout} from "../components/MainLayout";
+
+import {MainLayout} from "../components/MainLayout";
 import {HeaderComponent} from "../components/header/HeaderComponent";
-// import {useEffect, useState} from "react";
-// import {useRouter} from "next/router";
+import {AgencyBannerArea} from "../components/agency_banner_area/AgencyBannerArea";
+
 
 
 export default function Index({data}) {
     var header = data.data.web_elements.header;
 
     return(
-        <>
-            <HeaderComponent header={header}/>
-        </>
+        <MainLayout title={'Главная'}>
+            <HeaderComponent header={header} />
+            <AgencyBannerArea />
+        </MainLayout>
     )
 }
 

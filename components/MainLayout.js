@@ -8,7 +8,6 @@ export function MainLayout({ children, title = 'Next App' }) {
             <main>
                 {children}
             </main>
-
         </>
     )
 }
