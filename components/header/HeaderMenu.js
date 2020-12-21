@@ -1,10 +1,14 @@
-import {useState, useEffect} from 'react'
 import Link from "next/link";
-import {MainLayout} from "../MainLayout";
 import {useRouter} from "next/router";
 
-export function HeaderMenu({nav}) {
-    const links = getElementsValue(nav);
+    export function HeaderMenu({nav}) {
+        let links = [];
+
+        for (const [key, value] of Object.entries(nav)) {
+            if (key) {
+                links[key] = value;
+            }
+        }
 
     return (
         <>
