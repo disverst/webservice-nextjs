@@ -2,7 +2,7 @@
 import {MainLayout} from "../components/MainLayout";
 import {HeaderComponent} from "../components/header/HeaderComponent";
 import {AgencyBannerArea} from "../components/agency_banner_area/AgencyBannerArea";
-
+import {AgencyServiceArea} from "../components/agency_service_area/AgencyServiceArea";
 
 
 export default function Index({data}) {
@@ -12,6 +12,7 @@ export default function Index({data}) {
         <MainLayout title={'Главная'}>
             <HeaderComponent header={header} />
             <AgencyBannerArea />
+            <AgencyServiceArea />
         </MainLayout>
     )
 }
