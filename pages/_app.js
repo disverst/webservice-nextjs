@@ -11,7 +11,7 @@ import '../styles/vendors/nice-select/nice-select.css'
 import '../styles/scss/style.scss'
 import '../styles/css/responsive.css'
 import '../styles/js/jquery-3.2.1.min.js'
-// import '../styles/js/propper.js'
+import '../styles/js/propper.js'
 // import '../styles/js/bootstrap.min.js'
 // import '../styles/vendors/bootstrap-selector/js/bootstrap-select.min.js'
 // import '../styles/vendors/wow/wow.min.js'
@@ -24,7 +24,6 @@ import '../styles/js/jquery-3.2.1.min.js'
 // import '../styles/js/plugins.js'
 // import '../styles/vendors/scroll/jquery.mCustomScrollbar.concat.min.js'
 // import '../styles/js/main.js'
-
 
 export default function MyApp ({Component, pageProps}) {
     return (
