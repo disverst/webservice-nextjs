@@ -3,7 +3,7 @@ import {MainLayout} from "../components/MainLayout";
 import {HeaderComponent} from "../components/header/HeaderComponent";
 import {AgencyBannerArea} from "../components/agency_banner_area/AgencyBannerArea";
 import {AgencyServiceArea} from "../components/agency_service_area/AgencyServiceArea";
-
+import {AgencyAboutArea} from "../components/agency_about_area/AgencyAboutArea";
 
 export default function Index({data}) {
     var header = data.data.web_elements.header;
@@ -13,6 +13,7 @@ export default function Index({data}) {
             <HeaderComponent header={header} />
             <AgencyBannerArea />
             <AgencyServiceArea />
+            <AgencyAboutArea />
         </MainLayout>
     )
 }
