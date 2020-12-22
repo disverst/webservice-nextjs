@@ -8,7 +8,6 @@ export function HeaderLogo () {
             <a className="navbar-brand">
                 <Image
                     src="/logo.png"
-                    srcSet="/logo2x.png 2x"
                     alt="logo"
                     width={136}
                     height={59}
