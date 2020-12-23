@@ -1,4 +1,3 @@
-import 'bootstrap/dist/css/bootstrap.min.css';
 import {MainLayout} from "../components/MainLayout";
 import {HeaderComponent} from "../components/header/HeaderComponent";
 import {AgencyBannerArea} from "../components/agency_banner_area/AgencyBannerArea";

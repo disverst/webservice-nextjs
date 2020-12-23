@@ -1,25 +1,25 @@
 import Link from "next/link";
 import {useRouter} from "next/router";
 
-export function HeaderMenu({nav}) {
-        let links = [];
+export function HeaderLang({lang}) {
+    let langs = [];
 
-        for (const [key, value] of Object.entries(nav)) {
-            if (key) {
-                links[key] = value;
-            }
+    for (const [key, value] of Object.entries(lang)) {
+        if (key) {
+            langs[key] = value;
         }
+    }
 
     return (
         <>
             <ul className="navbar-nav menu pl_120 mr-auto ml-auto">
                 {
-                    links.map((link, index) =>
+                    langs.map((lang, index) =>
                         (
                             <li key={index} className="nav-item active">
-                                <Link href={link.url}>
+                                <Link href={lang.url}>
                                     <a className="nav-link dropdown-toggle">
-                                        {link.title}
+                                        {lang.title}
                                     </a>
                                 </Link>
                             </li>
@@ -31,13 +31,13 @@ export function HeaderMenu({nav}) {
     )
 }
 
-function getElementsValue(nav){
-    let links = [];
+function getElementsValue(lang){
+    let langs = [];
 
-    for (const [key, value] of Object.entries(nav)) {
+    for (const [key, value] of Object.entries(lang)) {
         if (key) {
-            links[key] = value;
+            langs[key] = value;
         }
     }
-    return links
+    return langs
 }

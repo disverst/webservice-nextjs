@@ -37,7 +37,7 @@
             "url": "https://domen.com#Contacts"
           }
         },
-        "lang-nav": {
+        "lang": {
           "1": {
             "title": "ukr",
             "url": "https://domen.com"
